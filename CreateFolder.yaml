@@ -1,3 +1,5 @@
+- name: WindowsServer einrichten
+  tasks:
 - name: Create Folder
   win_file:
     path: C:\temp\folder
